@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact list</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700&family=IBM+Plex+Serif:wght@100&family=Mynerve&display=swap');
+      </style>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+      </style>
+</head>
+<body>
+    <header><h2 class="multicolortext">Contact form</h2><span id="link"><a href="mailto:shorouktamer257@gmail.com" target="_blank">Contact us</a></span><a href="https://www.facebook.com/elite.team.asu" target="_blank"> About us</a></header>
+    <form  id="form" onsubmit="return addc()" >
+            <label for="contactname">Name:</label>
+            <input type="text" name="contactname" id="name" required>
+            <label for="contactnum">Number:</label>
+            <input type="number" name="contactnum" id="num" minlength="11" required>
+            <input type="submit"  value="Add" onclick="" >
+        </form>
+   <div class="container">
+    </div>
+    <footer><em>&copy; Copyright 2023 ShoroukTamer</em></footer>
+    <script src="script.js"></script>
+</body>
+</html>
